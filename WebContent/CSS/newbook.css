@@ -1,0 +1,33 @@
+#nbk{
+	width:50%;
+	color:#8011CC;
+	font-size: 22px;
+}
+#newbkform{
+	width:70%;
+	margin:auto;
+	box-shadow:0 0 10px #1F9E41;
+	padding-left: 30px;
+	margin-top: 10px;
+	padding-top:5px;
+	padding-bottom: 10px;
+}
+#bname,#aname,#pname,#price,#section{
+	font-size: 15px;
+	margin-bottom: 5px;
+	padding: 5px;
+	width:40%;
+	margin-right:10px;
+}
+#errorbox{
+	color:red;
+	text-align: center;
+}
+#addbkbtn{
+	background: #8011CC;
+	width:50%;
+	padding: 5px;
+	color:#ffffff;
+	cursor: pointer;
+	margin-bottom: 10px;
+}

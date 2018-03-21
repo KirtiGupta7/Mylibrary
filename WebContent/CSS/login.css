@@ -1,0 +1,36 @@
+#logcontainer{
+	margin:auto;
+	width:40%;
+	text-align: center;
+	margin-top: 5%;
+	box-shadow:0 0 10px #1F9E41;
+	margin-bottom: 5%;
+	padding: 10px;
+}
+#logtxt{
+	color: #8011CC;
+}
+#logform{
+	
+	margin:15px 0 15px 0;
+}
+.logform{
+	font-size: 15px;
+	margin-bottom: 5px;
+	padding: 5px;
+	width:70%;
+}
+#signin{
+	background: #8011CC;
+	width:50%;
+	padding: 5px;
+	color:#ffffff;
+	cursor: pointer;
+	margin-bottom: 10px;
+
+}
+#logreg{
+	padding-top:5px;
+	color:#1F9E41;
+	
+}

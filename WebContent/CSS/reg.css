@@ -1,0 +1,41 @@
+#regcontainer{
+	margin:auto;
+	width:70%;
+	text-align: center;
+	margin-top: 5%;
+	box-shadow:0 0 10px #1F9E41;
+	margin-bottom: 5%;
+	padding: 10px;
+}
+#regtxt{
+	color: #8011CC;
+}
+#regform{
+	
+	margin:15px 0 15px 0;
+}
+.regform{
+	font-size: 15px;
+	margin-bottom: 5px;
+	padding: 5px;
+	width:40%;
+	margin-left:5px;
+}
+#reg{
+	background: #8011CC;
+	width:50%;
+	padding: 5px;
+	color:#ffffff;
+	cursor: pointer;
+	margin-bottom: 10px;
+
+}
+#reglog{
+	padding-top:5px;
+	color:#1F9E41;
+	
+}
+#errorBox{
+text-align: left;
+ color:#A3080B;
+}

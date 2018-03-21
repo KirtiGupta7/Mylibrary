@@ -1,0 +1,55 @@
+#wlcm{
+	width:50%;
+	color:#8011CC;
+	font-size: 22px;
+}
+#imgtbl{
+	margin-left: 0px;
+}
+#cn{
+	margin: 10px 125px;
+	box-shadow:0 0 10px #1F9E41;
+	padding-left: 20px;
+	padding-top:5px;
+	padding-bottom: 10px;
+	height:150px;
+	
+}
+#lc{
+	
+	margin-top: 10px;
+	margin-bottom:10px;
+	width:45%;
+	float:left;
+}
+#si{
+	width:30%;
+	height: 100%;
+	float:left;
+	padding:5px
+		
+		
+}
+#t1{
+	float:right;
+	width:60%;
+	text-align: justify;
+}
+#rc{
+	margin-left: 30px;
+	margin-top: 10px;
+	margin-bottom:10px;
+	width:45%;
+	float:left;
+}
+#bi{
+	width:30%;
+	height: 120px;
+	float:left;
+	padding:5px
+}
+#t2{
+	float:right;
+	width:60%;
+	text-align: justify;
+}

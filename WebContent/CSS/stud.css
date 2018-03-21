@@ -1,0 +1,26 @@
+#stm{
+	width:50%;
+	color:#8011CC;
+	font-size: 22px;
+}
+#stpnl{
+	margin: 10px 125px;
+	box-shadow:0 0 10px #1F9E41;
+	padding-left: 20px;
+	padding-top:45px;
+	padding-bottom: 15px;
+	width:auto;
+}
+.stbtn{
+	margin-right: 130px;
+	margin-left: 50px;
+	margin-bottom: 70px;
+	background: #8011CC;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+	width:50%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+}

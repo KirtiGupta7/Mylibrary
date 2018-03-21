@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+<link href="CSS/newbook.css" rel="stylesheet">
+<link href="CSS/StyleSheet.css" rel="stylesheet">
+<script type="text/javascript" src="Js/reg.js">
+	</script>
+<body>
+	<div id="newbkform">
+	<form action="newbook.jsp" method="get">
+		<div id="errorbox"></div>
+		<input id="bname" type="text" name="bookname" placeholder="Enter Book Name">
+		<input id="aname" type="text" name="authname" placeholder="Enter Author Name">
+		<input id="pname" type="text" name="publishername" placeholder="Enter Publisher Name">
+		<input id="price" type="text" name="bkprice" placeholder="Enter Book Price"><br>
+		<center><select id="section" name="section">
+			<option><center>Select Book Section</center></option>
+			<option>CSE</option>
+			<option>IT</option>
+			<option>ECE</option>
+			<option>MCE</option>
+			<option>EEE</option>
+		</select></center>
+		<center><input id="addbkbtn" onClick="addbook()" type="submit" value="ADD NEW BOOK"></center>
+	</form>
+	</div>
+</body>
+</html>

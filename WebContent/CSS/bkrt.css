@@ -1,0 +1,27 @@
+#brtm{
+	width:50%;
+	color:#8011CC;
+	font-size: 22px;
+}
+.logform{
+	font-size: 15px;
+	margin-bottom: 5px;
+	padding: 5px;
+	width:70%;
+}
+#signin{
+	background: #8011CC;
+	width:50%;
+	padding: 5px;
+	color:#ffffff;
+	cursor: pointer;
+	margin-bottom: 10px;
+
+}
+#bkdserc{
+	width:50%;
+	margin: auto;
+	padding: 15px 50px;
+	margin-top: 15px;
+	box-shadow:0 0 10px #1F9E41;
+}

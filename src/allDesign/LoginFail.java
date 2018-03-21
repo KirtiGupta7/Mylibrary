@@ -1,0 +1,61 @@
+package allDesign;
+
+import java.io.PrintWriter;
+
+public class LoginFail {
+	public static void userpassincorrect(PrintWriter out) {
+		out.println("<html><head><title>login</title></head>"
+				+ "<link href=CSS/StyleSheet.css rel=stylesheet>"
+				+ "<link href=CSS/login.css rel=stylesheet>"
+				+ "<body>"
+				+ "<div id=header>"
+				+ "<div id=logo>"
+				+ "<a href=home.html>MY LIBRARIAN</a>"
+				+ "</div>"
+				+ "<div id=login>"
+				+ "<a class=link href=register.html>Register</a>"
+				+ "</div>"
+				+ "<div id= nav>"
+						+ "<ul>"
+								+ "<a  href=home.html><li id=navhome>Home</li></a>"
+								+ "<a href=services.html><li>Services</li></a>"
+								+ "<a href=partners.html><li>Partners</li></a>"
+								+ "<a href=aboutus.html><li>About Us</li></a>"
+								+ "<a  href=contactus.html><li id=navcontactus>Contact Us</li></a>"
+						+ "</ul>"
+						+ "</div>"
+						+ "</div>"
+						+ "<br>"
+						+ "<div id=logcontainer>"
+						+ "<h3 id=logtxt>Login To Library</h3>"
+							+ "<form action=logauth method=post>"
+								+ "<div id=logform>"
+								+ "<font color=red>Username or Password Incorrect</font><br>"
+								+ "<input class=logform type=text placeholder=Email id><br>"
+								+ "<input class=logform type=password placeholder=Password>"
+								+ "</div>"
+								+ "<center><input type=submit id=signin value=Login></center>"
+										
+								+ "</form>"
+								+ "<a id=logreg href=register.html>New User ! Click Here To Register</a>"
+								+ "</div>"
+								+ "<div id=footer>"
+									+ "<table>"
+									+ "<tr>"
+									+ "<td class=footl><a href=home.html>Home</a></td>"
+									+ "<td class=footl><a href=services.html>Services</a></td>"
+									+ "<td class=footl><a href=partners.html>Partners</a></td>"
+									+ "<td class=footl><a href=aboutus.html>About Us</a></td>"
+									+ "<td id=cs><a href=contactus.html>Contact Us</a></td>"
+									+ "</tr>"
+									+ "</table>"
+									+ "<center><hr id=bottomhr width=70% color=#ffffff></center>"
+									+ "<font size=-1 color=#ffffff>"
+									+ "<center>Copyright &copy; 2017 My Librarian. All Right Reserved</center>"
+									+ "</font>"
+									+ "</div>"
+									+ "</body>"
+									+ "</html>");
+	
+	}
+}
